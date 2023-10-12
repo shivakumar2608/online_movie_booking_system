@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;        
+
+}
+.image{
+    width: 60%;
+    margin: 5%;
+}
+
+.signup-img{
+    width: 50%;
+    height: 50%;
+}
+.container-movies{
+    text-align: center;
+
+}
+
+#movie{
+    /* margin:  2%; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 20%;
+}
+
+
+#movie:hover{
+    margin:  1%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1%;
+    background-color: rgba(17, 17, 17, 0.795);
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+
+    width: 22%;
+}
+
+.movieInfo{
+   display: flex;
+   position: absolute;
+   top: 10%;
+   left: 5%;
+   height: 70vh;
+   transform: translate(15%, 10%);
+   align-items: center;
+   justify-content: center;
+    width: 70%;
+    margin: auto;
+    background-color: bisque;
+    padding: 5% 7%;
+    border: 1px solid black;
+    display: none;
+    }
+
+    .main-container-blur{
+        opacity: 0.1;
+    }
+  .imgSection img{
+    width: 90%;
+    margin: 0;
+
+    }   
+    .displayNone{
+        display: flex;
+    }
+
+.infoSection{
+    width: 100%;
+    margin: 0;
+    padding: 8%;
+    
+  }
+
+
+

@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/246/462/453/laptop-macbook-iphone-apple-wallpaper-preview.jpg");
+    background-size: cover;
+ 
+}
+
+.container3{
+    border: 1px solid black;
+    background-color: rgba(105, 102, 102, 0.788);    
+    padding: 9%;
+    width: 50%;
+    margin:  40px auto;
+}
+
+.box{
+    padding: 5%;
+}
